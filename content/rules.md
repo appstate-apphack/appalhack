@@ -17,17 +17,3 @@ title="Rules"
 "Graduate students are allowed to work with undergraduate students. However, any project a graduate student works on will be judged in the graduate category, even if undergraduate students are also on their team."
 ]) }}
 {% end %}
-
-{% card() %}
-1. All participants must be currently enrolled in a US-based university and must be at least 18 years old.
-2. Be respectful to other attendees: no harassment and no offensive imagery or language.
-3. Teams can have up to 4 people.
-4. Teams can plan for the project beforehand. Planning includes brainstorming, UMLs, concept art, to-do-lists, wireframes, etc.
-5. All coding on a project should be done at the hackathon.
-6. All teams retain full ownership of what they create during AppHack.
-7. Teams can use libraries, frameworks, or open-source code in their projects. However, creating an open-source project before the event for the sole purpose of working on it during the event is against the rules.
-8. Asking for help is okay during the event. We will try our best to help you debug a problem. You can also ask for help from a mentor sent by our sponsors.
-9. Teams can use an idea they had before the event.
-10. At least one team member must be present for the virtual demo fair. Prizes will not be awarded to teams that are not present.
-11. Graduate students are allowed to work with undergraduate students. However, any project a graduate student works on will be judged in the "graduate" category, even if undergraduate students are also on their team.
-{% end %}
