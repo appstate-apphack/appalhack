@@ -8,7 +8,6 @@
             | {{ page.title }}
             {% endif %}
         </title>
-        <base href="/apphack/">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans|Special+Elite">
@@ -47,11 +46,11 @@
             </a>
             <!-- Right-sided navbar links. Hide them on small screens -->
             <div class="w3-right w3-center" style="width:100%">
-                <a href="about" class="w3-button w3-round w3-hover-dark-gray">About</a>
-                <a href="schedule" class="w3-button w3-round w3-hover-dark-gray">Schedule</a>
-                <a href="prizes" class="w3-button w3-round w3-hover-dark-gray">Prizes</a>
-                <a href="rules" class="w3-button w3-round w3-hover-dark-gray">Rules</a>
-                <a href="faq" class="w3-button w3-round w3-hover-dark-gray">FAQ</a>
+                <a href="{{ get_url(path='about') }}" class="w3-button w3-round w3-hover-dark-gray">About</a>
+                <a href="{{ get_url(path='schedule') }}" class="w3-button w3-round w3-hover-dark-gray">Schedule</a>
+                <a href="{{ get_url(path='prizes') }}" class="w3-button w3-round w3-hover-dark-gray">Prizes</a>
+                <a href="{{ get_url(path='rules') }}" class="w3-button w3-round w3-hover-dark-gray">Rules</a>
+                <a href="{{ get_url(path='faq') }}" class="w3-button w3-round w3-hover-dark-gray">FAQ</a>
             </div>
         </div>
 
@@ -66,7 +65,7 @@
             <div style="
                 height: 2em;
                 background-color: white;
-                mask-image: url('minimal-logo.svg');
+                mask-image: url({{ get_url(path='minimal-logo.svg') }});
                 mask-size: contain;
                 mask-repeat: no-repeat;
                 mask-position: center;

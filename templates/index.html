@@ -2,7 +2,7 @@
 {% block content %}
 <div class="w3-display-container" style="
     min-height: 500px;
-    background-image: url(/mountains.png);
+    background-image: url({{ get_url(path='mountains.png') }});
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
