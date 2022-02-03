@@ -2,9 +2,9 @@
 title = "About Us"
 +++
 
-{% card(title="History of Apphack") %}
+{% card(title="History of AppHack") %}
 
-Before there was Apphack, there was SEDEx, a coding event hosted at Appalachian State University yearly. The first SEDEx was hosted in 2010. In 2014, SEDEx re-branded and became Apphack as we know it today. The first official Apphack was organized by an Appalachian State University grad student named Sina Tashakkori. In 2015 Apphack was sponsored by Major League Hacking for the first time. From there, Apphack has continued to grow every year. Unfortunately, we had to cancel last minute due to COVID-19 in 2020. However, we are back in 2021 as a fully online event and ready to make Apphack history.
+Before there was AppHack, there was SEDEx, a coding event hosted at Appalachian State University yearly. The first SEDEx was hosted in 2010. In 2014, SEDEx re-branded and became AppHack as we know it today. The first official AppHack was organized by an Appalachian State University grad student named Sina Tashakkori. In 2015 AppHack was sponsored by Major League Hacking for the first time. From there, AppHack has continued to grow every year. In spring of 2022, AppHack is happy to be returning to a fully in-person event!
 
 {% end %}
 
