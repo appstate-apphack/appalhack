@@ -28,12 +28,17 @@
     </p>
 </div>
 
-<!--
 <div class="w3-panel w3-card w3-theme-d4 w3-round-large">
     <h2 class="w3-center w3-theme-d5 w3-round-large">Sponsors</h2>
     <div class="w3-center w3-padding">
-        <img style="max-width:100%; margin=2%;" src="/img/sponsor.png" >
+        {% for logo in ['drake.png', 'irods.svg'] %}
+        <img class="w3-theme-l4 w3-round-large" style="width: 325px;
+                                                       max-width:100%;
+                                                       padding: 20px;
+                                                       margin: 5px;
+                                                       "
+             src="{{ get_url(path='sponsors/' ~ logo) }}" >
+        {% endfor %}
     </div>
 </div>
--->
 {% endblock %}
