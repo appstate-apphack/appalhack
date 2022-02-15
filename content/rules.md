@@ -13,7 +13,7 @@ title="Rules"
 "Teams can use libraries, frameworks, or open-source code in their projects. However, creating an open-source project before the event for the sole purpose of working on it during the event is against the rules.",
 "Asking for help is okay during the event. We will try our best to help you debug a problem. You can also ask for help from a mentor sent by our sponsors.",
 "Teams can use an idea they had before the event.",
-"At least one team member must be present for the virtual demo fair. Prizes will not be awarded to teams that are not present.",
+"At least one team member must be present for the demo fair. Prizes will not be awarded to teams that are not present.",
 "Graduate students are allowed to work with undergraduate students. However, any project a graduate student works on will be judged in the graduate category, even if undergraduate students are also on their team."
 ]) }}
 {% end %}
