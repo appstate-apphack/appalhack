@@ -2,6 +2,10 @@
 title = "Prizes"
 +++
 
+{% note() %}
+Prizes and eligibility listed below is subject to change before the event.
+{% end %}
+
 {% card(title="Best Overall", img="prizes/blue.jpg") %}
 This prize is awarded to the best project, regardless of who submitted it.
 
