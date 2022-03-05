@@ -33,19 +33,19 @@ The clubs involved in making AppHack possible are also in charge of their own re
 {% end %}
 
 {% card(title="WiCS — Best Women's Project", img="prizes/imagicharm.jpg") %}
-Placeholder
+The WiCS club is awarding the best women's project with an reprogrammable imagiCharm, which can be programmed from your phone.
 
 To be eligible for this prize category, half the team has to identify as females.
 {% end %}
 
 {% card(title="ASCII — Best Game", img="prizes/keyboard.jpg") %}
-Placeholder
+The ASCII club's prize is a mechanical keyboard awarded to the best game.
 
-To be eligible for this prize category, the submitted project must be some kind of game. 
+To be eligible for this prize category, the submitted project must be some kind of game: text-based, 2d side strollers, or even a full blown 3d first person shooter.
 {% end %}
 
 {% card(title="/mnt/linux — Best Open Source Contribution", img="prizes/yubikey.jpg") %}
-Placeholder
+The Mountain Linux club is rewarding a team who gives back to the open source community a YubiKey hardware cryptography key from Yubico.
 
 To be eligible for this prize category, the source code must be openly published or the project has to make a significant contribution to the open source ecosystem.
 {% end %}
