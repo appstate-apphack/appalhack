@@ -37,6 +37,7 @@
             .w3-hover-text-theme:hover {color:#555555 !important}
             .w3-hover-border-theme:hover {border-color:#555555 !important}
             h1,h2,h3,h4,h5,h6 {color: #00ff00 !important;}
+
         </style>
     </head>
     <body style="display:grid; grid-template-rows: auto 1fr auto; height:100%; font-size: 12pt;" class="w3-black">
@@ -57,7 +58,7 @@
             </div>
         </nav>
 
-        <main class="w3-panel" style="grid-row: 2 / 3; max-width: 800px; margin: auto; height:100%;">
+        <main class="w3-panel" style="grid-row: 2 / 3; max-width: 800px; margin: auto; height:100%; width: 100%">
             {% block content %}
             {% endblock %}
         </main>
