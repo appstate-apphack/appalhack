@@ -17,8 +17,11 @@ table * {
     padding: 5px;
 }
 
-td {
+td, th {
     border-radius: 5px;
+}
+th {
+    text-decoration: underline;
 }
 
 tr > td:nth-child(2) {
@@ -33,6 +36,9 @@ tr:nth-child(odd) > td:first-child {
 .workshop { background-color: navy; }
 .meal { background-color: teal; }
 .event { background-color: brown; }
+.date {
+    font-size: 16pt;
+}
 </style>
 
 Key:
@@ -45,11 +51,11 @@ Additional Events
 
 <table>
     <tr>
-        <th>Time</th>
-        <th>Event</th>
+        <th colspan="2" class="date">April 8</th>
     </tr>
     <tr>
-        <th colspan=2">April 8</th>
+        <th>Time</th>
+        <th>Event</th>
     </tr>
     <tr>
         <td>6:00pm</td>
@@ -74,7 +80,11 @@ Additional Events
         <td>Games</td>
     </tr>
     <tr>
-        <th colspan=2">April 9</th>
+        <th colspan=2" class="date">April 9</th>
+    </tr>
+    <tr>
+        <th>Time</th>
+        <th>Event</th>
     </tr>
     <tr>
         <td>7:00am</td>
