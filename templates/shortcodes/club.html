@@ -3,14 +3,16 @@
     <div class="w3-panel w3-theme-d4 w3-round-large w3-center">
         <h3>{{ name }}</h3>
     </div>
-    {% if img %}
-    <span><img src="../{{ img }}" style="float: left; width: 400px; max-width: 100%; border-radius:20%;" class="w3-padding"></span>
-    {% endif %}
-    {% if desc %}
-    <div class="w3-padding-16">
-        <span>
-        {{ desc | safe }}
-        </span>
+    <div style="padding: 0 0 16px 0" class="w3-container">
+        {% if img %}
+        <img src="../{{ img }}" style="float: left; width: 400px; max-width: 100%; border-radius:20%;" class="w3-padding">
+        {% endif %}
+        {% if desc %}
+        <div class="w3-padding">
+            <span>
+            {{ desc | safe }}
+            </span>
+        </div>
+        {% endif %}
     </div>
-    {% endif %}
 </div>
