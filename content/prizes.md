@@ -6,10 +6,10 @@ title = "Prizes"
 Prizes and eligibility listed below is subject to change before the event.
 {% end %}
 
-{% card(title="Best Overall", img="/prizes/blue.jpg") %}
+{% card(title="Best Overall", img="/prizes/mic.jpg") %}
 This prize is awarded to the best project, regardless of who submitted it. In other words, every team participating in AppHack is eligible to win this prize.
 
-The prize that will be awarded to the winner of this category is a Blue Yeti Nano USB Microphone kit.
+The prize that will be awarded to the winner of this category is a FIFINE Studio Condenser USB Microphone Kit.
 {% end %}
 
 {% card(title="Best Freshman", img="/prizes/elegoo.jpg") %}
@@ -32,8 +32,8 @@ To be eligible for this prize category, the team has to have at least 1 graduate
 The clubs involved in making AppHack possible are also in charge of their own respective prize category. Each of these categories is shown below with their respective prize.
 {% end %}
 
-{% card(title="WiCS — Best Women's Project", img="/prizes/imagicharm.jpg") %}
-The WiCS club is awarding the best women's project with an reprogrammable imagiCharm, which can be programmed from your phone.
+{% card(title="WiCS — Best Women's Project", img="/prizes/earbuds.jpg") %}
+The WiCS club is awarding the best women's project with a pair of wireless earbuds.
 
 To be eligible for this prize category, half the team has to identify as females.
 {% end %}
