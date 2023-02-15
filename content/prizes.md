@@ -47,7 +47,7 @@ To be eligible for this prize category, the submitted project must be some kind 
 {% end %}
 
 {% card(title="/mnt/linux — Best Open Source Contribution", img="/prizes/elegoo.jpg") %}
-The Mountain Linux club is rewarding a team who gives back to the open source community a YubiKey hardware cryptography key from Yubico.
+The Mountain Linux club is rewarding a team who gives back to the open source community a Arduino kit.
 
 To be eligible for this prize category, the source code must be openly published or the project has to make a significant contribution to the open source ecosystem.
 {% end %}
