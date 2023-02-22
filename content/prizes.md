@@ -6,10 +6,10 @@ title = "Prizes"
 Prizes and eligibility listed below is subject to change before the event.
 {% end %}
 
-{% card(title="Best Overall", img="/prizes/drone.png") %}
+{% card(title="Best Overall", img="/prizes/Raxer.png") %}
 This prize is awarded to the best project, regardless of who submitted it. In other words, every team participating in AppHack is eligible to win this prize.
 
-The prize that will be awarded to the winner of this category is a drone of some kind.
+The prize that will be awarded to the winner of this category is going to be a Razer Seiren x.
 {% end %}
 
 {% card(title="Best Beginner Hack", img="/prizes/speaker.png") %}
@@ -40,8 +40,8 @@ The WiCS club is awarding the best women's project with a porjector.
 To be eligible for this prize category, half the team has to identify as females.
 {% end %}
 
-{% card(title="ASCII — Best Game", img="/prizes/keyboard.jpg") %}
-The ASCII club's prize is a mechanical keyboard awarded to the best game.
+{% card(title="ASCII — Best Game", img="/prizes/walcom.png") %}
+The ASCII club's prize is a Wacom One awarded to the best game.
 
 To be eligible for this prize category, the submitted project must be some kind of game: text-based, 2d side strollers, or even a full blown 3d first person shooter.
 {% end %}
