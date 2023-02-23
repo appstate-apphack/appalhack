@@ -6,7 +6,7 @@ title = "Prizes"
 Prizes and eligibility listed below is subject to change before the event.
 {% end %}
 
-{% card(title="Best Overall", img="/prizes/Raxer.png") %}
+{% card(title="Best Overall", img="/prizes/Razer.png") %}
 This prize is awarded to the best project, regardless of who submitted it. In other words, every team participating in AppHack is eligible to win this prize.
 
 The prize that will be awarded to the winner of this category is going to be a Razer Seiren x.
