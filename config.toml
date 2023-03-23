@@ -16,9 +16,9 @@ highlight_code = false
 # Put all your custom variables here
 sponsors = [
    # ["drake.png", "https://www.drakesoftware.com/"],
-   # ["irods.svg", "https://irods.org/"],
+     ["irods.svg", "https://irods.org/"],
      ["brownbook.png", "https://www.brownbooksoftware.com/"],
-     ["alderit.svg","https://alderit.com/" ]
-   # ["jsa.png", "https://www.jsausa.com/site/"],
+     ["alderit.svg","https://alderit.com/"],
+     ["jsa.png", "https://www.jsausa.com/site/"],
    # ["fd0.png", "https://www.ferrousdesign.com/"],
 ]

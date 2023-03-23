@@ -51,95 +51,103 @@ Additional Events
 
 <table>
     <tr>
-        <th colspan="2" class="date">April 8</th>
+        <th colspan="2" class="date">April 1</th>
     </tr>
-    <tr>
+   <tr>
         <th>Time</th>
         <th>Event</th>
     </tr>
     <tr>
-        <td>6:00pm</td>
+        <td>2:00PM</td>
         <td class="event">Check In</td>
     </tr>
     <tr>
-        <td>7:00pm</td>
+        <td>3:00PM</td>
         <td class="event">Kick Off</td>
     </tr>
     <tr>
-        <td>8:00pm</td>
-        <td rowspan="2" class="workshop">Chris Waldon Presenting Git</td>
+        <td>4:00PM</td>
+        <td rowspan="2" class="workshop">Chris Waldon presenting Go prorgaming</td>
     </tr>
     <tr>
-        <td>9:00pm</td>
+        <td>4:30PM</td>
     </tr>
     <tr>
-        <td>10:00pm</td>
-    </tr>
-    <tr>
-        <td>11:00pm</td>
-        <td>Games</td>
-    </tr>
-    <tr>
-        <th colspan=2" class="date">April 9</th>
-    </tr>
-    <tr>
-        <th>Time</th>
-        <th>Event</th>
-    </tr>
-    <tr>
-        <td>7:00am</td>
-        <td class="meal">Breakfast</td>
-    </tr>
-    <tr>
-        <td>8:00am</td>
-    </tr>
-    <tr>
-        <td>9:00am</td>
-        <td class="workshop">RENCI (iRODS)</td>
-    </tr>
-    <tr>
-        <td>10:00am</td>
-        <td rowspan="3" class="event">Sponsorship Fair</td>
-    </tr>
-    <tr>
-        <td>11:00am</td>
-    </tr>
-    <tr>
-        <td>12:00pm</td>
-    </tr>
-    <tr>
-        <td>12:30pm</td>
-        <td rowspan="2" class="meal">Lunch</td>
-    </tr>
-    <tr>
-        <td>1:00pm</td>
-    </tr>
-    <tr>
-        <td>2:00pm</td>
+        <td>5:00PM</td>
         <td rowspan="2" class="workshop">Mike Wilson</td>
     </tr>
     <tr>
-        <td>3:00pm</td>
+        <td>5:30PM</td>
     </tr>
     <tr>
-        <td>4:00pm</td>
-        <td rowspan="2" class="workshop">Drake Software</td>
+        <td>6:00PM</td>
+        <td rowspan="2" class="workshop">Dr.Amstorng</td>
     </tr>
     <tr>
-        <td>5:00pm</td>
+        <td>6:30PM</td>
     </tr>
     <tr>
-        <td>6:00pm</td>
-        <td class="meal">Dinner</td>
+        <td>7:00PM</td>
+        <td rowspan="2" class="meal">Dinner</td>
     </tr>
     <tr>
-        <td>7:00pm</td>
-        <td class="event">Showcase/Judging</td>
+        <td>8:00PM</td>
     </tr>
     <tr>
-        <td>8:00pm</td>
-        <td class="event">Prizes/Closing</td>
+        <td>9:00PM</td>
     </tr>
+    <tr>
+        <td>10:00PM</td>
+    </tr>
+    <tr>
+        <td>11:00PM</td>
+    </tr>
+    <tr>
+        <th colspan="2" class="date">April 2</th>
+    </tr>
+    <tr>
+        <td>12:00AM</td>
+        <td rowspan="2" class="event">Trivia</td>
+    </tr>
+    <tr>
+        <td>1:00AM</td>
+    </tr>
+    <tr>
+        <td>2:30AM</td>
+        <td rowspan="3" class="event">Scavanger Hunt</td>
+    </tr>
+    <tr>
+        <td>3:00AM</td>
+    </tr>
+    <tr>
+        <td>4:00AM</td>
+    </tr>
+    <tr>
+        <td>6:00AM</td>
+        <td rowspan="2" class="meal">Breakfeast</td>
+    </tr>
+    <tr>
+        <td>7:00AM</td>
+    </tr>
+    <tr>
+        <td>10:30AM</td>
+        <td rowspan="2" class="workshop">Sponsor Fair</td>
+    </tr>
+     <tr>
+        <td>11:00AM</td>
+    </tr>
+        <td>12:00AM</td>
+        <td rowspan="2" class="meal">Lunch</td>
+    <tr>
+        <td>1:00PM</td>
+    </tr>
+    <tr>
+        <td>2:00PM</td>
+    </tr>
+    <tr>
+        <td>3:00PM</td>
+        <td class="event">End of hack</td>
+    </td>
 </table>
 
 {% end %}
