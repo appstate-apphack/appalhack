@@ -67,7 +67,7 @@ Additional Events
     </tr>
     <tr>
         <td>4:00PM</td>
-        <td rowspan="2" class="workshop">Chris Waldon presenting Go prorgaming</td>
+        <td rowspan="2" class="workshop">Chris Waldon presenting Go programming</td>
     </tr>
     <tr>
         <td>4:30PM</td>
@@ -81,7 +81,7 @@ Additional Events
     </tr>
     <tr>
         <td>6:00PM</td>
-        <td rowspan="2" class="workshop">Dr.Amstorng</td>
+        <td rowspan="2" class="workshop">Dr.Armstorng</td>
     </tr>
     <tr>
         <td>6:30PM</td>
@@ -124,7 +124,7 @@ Additional Events
     </tr>
     <tr>
         <td>6:00AM</td>
-        <td rowspan="2" class="meal">Breakfeast</td>
+        <td rowspan="2" class="meal">Breakfast</td>
     </tr>
     <tr>
         <td>7:00AM</td>
@@ -146,8 +146,15 @@ Additional Events
     </tr>
     <tr>
         <td>3:00PM</td>
-        <td class="event">End of hack</td>
-    </td>
+        <td rowspan="2" class="event">Judging and presenting</td>
+    </tr>
+    <tr>
+       <td>4:00PM</td> 
+    </tr>
+    <tr>
+        <td>4:30PM</td>
+        <td class="event">Award ceremony</td>
+    <tr>
 </table>
 
 {% end %}
