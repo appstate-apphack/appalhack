@@ -81,7 +81,7 @@ Additional Events
     </tr>
     <tr>
         <td>6:00PM</td>
-        <td rowspan="2" class="workshop">Dr.Armstorng</td>
+        <td rowspan="2" class="workshop">Block Chain</td>
     </tr>
     <tr>
         <td>6:30PM</td>
@@ -136,7 +136,7 @@ Additional Events
      <tr>
         <td>11:00AM</td>
     </tr>
-        <td>12:00AM</td>
+        <td>12:00PM</td>
         <td rowspan="2" class="meal">Lunch</td>
     <tr>
         <td>1:00PM</td>
