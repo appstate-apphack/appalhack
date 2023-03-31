@@ -27,5 +27,5 @@ Yes! You can register at the event!
 {% end %}
 
 {% card(title="What if I don't finish my project?") %}
-We encourage you to submit anyways because it does not disqualify you from prizes. It is also a significant accomplishment to work on a project for 48 hours! We love to hear about what your idea was.
+We encourage you to submit anyways because it does not disqualify you from prizes. It is also a significant accomplishment to work on a project for 24 hours! We love to hear about what your idea was.
 {% end %}

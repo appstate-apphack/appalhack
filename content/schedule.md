@@ -48,7 +48,10 @@ Key:
 <span class="w3-round-large w3-padding-small" style="border: 1px solid #4c4c4c">
 Additional Events
 </span>
-
+#### Room Info 
+- All work shops will be in room 318.
+- Kickoff and Judging will be in room 310.
+- Check in and food will be in the main lobby.
 <table>
     <tr>
         <th colspan="2" class="date">April 1</th>
@@ -59,29 +62,29 @@ Additional Events
     </tr>
     <tr>
         <td>2:00PM</td>
-        <td class="event">Check In</td>
+        <td class="event">Check-in</td>
     </tr>
     <tr>
         <td>3:00PM</td>
-        <td class="event">Kick Off</td>
+        <td class="event">Kick off</td>
     </tr>
     <tr>
         <td>4:00PM</td>
-        <td rowspan="2" class="workshop">Chris Waldon presenting Go programming</td>
+        <td rowspan="2" class="workshop">Go Programming Presentation by Chris Waldon</td>
     </tr>
     <tr>
         <td>4:30PM</td>
     </tr>
     <tr>
         <td>5:00PM</td>
-        <td rowspan="2" class="workshop">Mike Wilson</td>
+        <td rowspan="2" class="workshop">Career Advice Presentation by Mike Wilson</td>
     </tr>
     <tr>
         <td>5:30PM</td>
     </tr>
     <tr>
         <td>6:00PM</td>
-        <td rowspan="2" class="workshop">Block Chain</td>
+        <td rowspan="2" class="workshop">Blockchain Presentation by GNEISS</td>
     </tr>
     <tr>
         <td>6:30PM</td>

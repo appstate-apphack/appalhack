@@ -37,7 +37,7 @@ The clubs involved in making AppHack possible are also in charge of their own re
 {% card(title="WiCS — Best Women's Project", img="/prizes/projector.png") %}
 The WiCS club is awarding the best women's project with a porjector.
 
-To be eligible for this prize category, half the team has to identify as females.
+To be eligible for this prize category, half the team has to identify as female or non binary. 
 {% end %}
 
 {% card(title="ASCII — Best Game", img="/prizes/walcom.png") %}
