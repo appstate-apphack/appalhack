@@ -1,5 +1,5 @@
 +++
-title = "ester egg"
+title = "easter egg"
 +++
 
 {% card(title= "swaggy DrT", img="egg.png") %}
