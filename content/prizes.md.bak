@@ -35,7 +35,7 @@ The clubs involved in making AppHack possible are also in charge of their own re
 {% end %}
 
 {% card(title="WiCS — Best Women's Project", img="/prizes/projector.png") %}
-The WiCS club is awarding the best women's project with a projector.
+The WiCS club is awarding the best women's project with a porjector.
 
 To be eligible for this prize category, half the team has to identify as females.
 {% end %}
