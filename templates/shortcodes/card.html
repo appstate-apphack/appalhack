@@ -1,9 +1,0 @@
-<div class="w3-panel w3-card w3-theme-d4 w3-round-large w3-padding-16">
-    {% if title %}
-    <h2 class="w3-center w3-theme-d5 w3-round-large w3-padding">{{ title }}</h2>
-    {% if img %}
-    <span><img src="{{ img }}" style="float: left; width: 400px; max-width: 100%; border-radius:50px;" class="w3-padding"></span>
-    {% endif %}
-    {% endif %}
-    {{ body | markdown | trim | safe }}
-</div>
