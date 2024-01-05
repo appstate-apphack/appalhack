@@ -167,9 +167,9 @@ canvas {
 }
 
 #header {
-  background-image: url('images/mountain.png');
+  background-image: url('images/background.png');
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   color: rgb(0, 0, 0);
   padding-bottom: 2rem;
 }
