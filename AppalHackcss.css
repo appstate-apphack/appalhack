@@ -101,6 +101,13 @@ Button sizes and colors
 }
 
 
+@media only screen and (max-width: 768px) {
+  .colored-bar,
+  .colored-bar2 {
+    display: none;
+  }
+}
+
 .theme-picker {
   margin-left: -120px;
   -webkit-transition: margin-left 0.5s;
