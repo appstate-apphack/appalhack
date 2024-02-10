@@ -6,17 +6,18 @@ gtag("js", new Date());
 
 gtag("config", "UA-56623245-2");
 
-var countDownDate = new Date("2024-03-30T05:38:00.000Z").getTime();
+// Set the target date and time for the countdown (March 30, 2024, 12:00 PM EST)
+var countDownDate = new Date("2024-03-30T12:00:00-05:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
-  // Get todays date and time
+  // Get today's date and time
   var now = new Date().getTime();
 
-  // Find the distance between now an the count down date
+  // Find the distance between now and the count down date
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
+  // Time calculations for days, hours, minutes, and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));

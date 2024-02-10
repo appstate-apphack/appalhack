@@ -76,6 +76,31 @@ Button sizes and colors
   }
 }
 
+
+
+.colored-bar {
+  position: absolute;
+  top: 891px;
+  left: 0;
+  bottom: 0;
+  width: 260px;
+  height: 4443px;
+  background-color: #E6E6FA;
+  z-index: 98;
+}
+
+.colored-bar2 {
+  position: absolute;
+  top: 891px;
+  right: 0;
+  bottom: 0;
+  width: 260px;
+  height: 4443px;
+  background-color: #E6E6FA;
+  z-index: 98;
+}
+
+
 .theme-picker {
   margin-left: -120px;
   -webkit-transition: margin-left 0.5s;
@@ -193,6 +218,8 @@ canvas {
   color: var(--primary);
 }
 
+
+
 section {
   background-color: rgb(253, 253, 253);
   padding-bottom: 80px;
@@ -243,6 +270,20 @@ section:first-of-type {
   color: #000000;
 }
 
+.divider2:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  /* or 100px */
+}
+
+.divider2 span {
+  color: #000000;
+}
+
 .question {
   padding: 10px 0px;
   width: 95%;
@@ -276,21 +317,21 @@ section:first-of-type {
 
 .sponsor-row {
   display: flex;
-  max-height: 100px;
+  /* max-height: 100px; */
   margin-bottom: 35px;
 }
 
 .sponsor-row-lg {
-  max-height: 120px;
+  /* max-height: 120px; */
 }
 
-.sponsor img {
+/* .sponsor img {
   width: 100%;
   height: auto;
   max-height: 100%;
   object-fit: contain;
   -webkit-user-drag: none;
-}
+} */
 
 #footer {
   padding: 50px 0px;
