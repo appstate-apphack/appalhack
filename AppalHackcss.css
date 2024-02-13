@@ -80,22 +80,22 @@ Button sizes and colors
 
 .colored-bar {
   position: absolute;
-  top: 828px;
+  top: 83%;
   left: 0;
   bottom: 0;
-  width: 260px;
-  height: 4443px;
+  width: 15%;
+  height: 475.2%;
   background-color: #E6E6FA;
   z-index: 98;
 }
 
 .colored-bar2 {
   position: absolute;
-  top: 828px;
+  top: 83%;
   right: 0;
   bottom: 0;
-  width: 260px;
-  height: 4443px;
+  width: 15%;
+  height: 475.2%;
   background-color: #E6E6FA;
   z-index: 98;
 }
