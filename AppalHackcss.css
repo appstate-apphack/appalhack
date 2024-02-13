@@ -23,6 +23,7 @@ html {
 a {
   cursor: pointer;
   color: var(--primary);
+
 }
 
 /*
@@ -79,23 +80,23 @@ Button sizes and colors
 
 
 .colored-bar {
-  position: absolute;
-  top: 83%;
+  position: fixed;
+  top: 0;
   left: 0;
   bottom: 0;
-  width: 15%;
-  height: 475.2%;
+  width: 11%;
+  height: 300%; /* Set height to 100% of the viewport height */
   background-color: #E6E6FA;
   z-index: 98;
 }
 
 .colored-bar2 {
-  position: absolute;
-  top: 83%;
+  position: fixed;
+  top: 0;
   right: 0;
   bottom: 0;
-  width: 15%;
-  height: 475.2%;
+  width: 11%;
+  height: 300%; /* Set height to 100% of the viewport height */
   background-color: #E6E6FA;
   z-index: 98;
 }
@@ -204,7 +205,10 @@ canvas {
   background-position: bottom;
   color: rgb(0, 0, 0);
   padding-bottom: 2rem;
+  position: relative; /* Add position relative to ensure z-index works */
+  z-index: 99; /* Ensure the header is stacked above the colored bars */
 }
+
 
 #banner-logo {
   margin-top: 5rem;
@@ -345,6 +349,8 @@ section:first-of-type {
   width: 100%;
   color: rgb(10, 5, 5);
   background-color: var(--primary);
+  position: relative;
+  z-index: 100;
 }
 
 #footer>div>a {
@@ -463,6 +469,7 @@ section:first-of-type {
 .card-image {
   display: block;
   position: relative;
+  z-index: 100;
 }
 
 .person-card {
