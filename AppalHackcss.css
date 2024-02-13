@@ -207,6 +207,7 @@ canvas {
   padding-bottom: 2rem;
   position: relative; /* Add position relative to ensure z-index works */
   z-index: 99; /* Ensure the header is stacked above the colored bars */
+
 }
 
 
@@ -330,10 +331,21 @@ section:first-of-type {
   display: flex;
   /* max-height: 100px; */
   margin-bottom: 35px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 400px; */
 }
 
 .sponsor-row-lg {
   /* max-height: 120px; */
+}
+.sponsor-imgs{
+  top: 60%;
+  left: 50%;
+}
+.sponsor-imgs2{
+  top: 50%;
+  left: 50%;
 }
 
 /* .sponsor img {
@@ -370,6 +382,8 @@ section:first-of-type {
 
   .sponsor-row {
     margin-bottom: 10px;
+    /* top: 50%;
+    left: 50%; */
   }
 
   #mlh-trust-badge {
