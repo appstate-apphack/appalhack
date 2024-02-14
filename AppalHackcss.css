@@ -206,8 +206,8 @@ canvas {
   background-position: bottom;
   color: #ffffff;
   padding-bottom: 2rem;
-  position: relative; /* Add position relative to ensure z-index works */
-  z-index: 99; /* Ensure the header is stacked above the colored bars */
+  position: relative;
+  z-index: 99; 
 
 }
 
