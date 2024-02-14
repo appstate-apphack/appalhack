@@ -204,7 +204,7 @@ canvas {
   background-image: url('images/background.png');
   background-size: cover;
   background-position: bottom;
-  color: rgb(0, 0, 0);
+  color: #a7abb8;
   padding-bottom: 2rem;
   position: relative; /* Add position relative to ensure z-index works */
   z-index: 99; /* Ensure the header is stacked above the colored bars */
