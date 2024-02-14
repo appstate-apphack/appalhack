@@ -1,18 +1,19 @@
 /* Variables */
 :root {
-  --primary: #cb786e;
+  --primary: #c44739;
   --secondary: #555dc3;
-  --tertiary: #493f3f;
+  --tertiary: #000000;
 }
 
 body,
 html {
   min-width: 320px;
-  color: var(--primary);
+  color: #c44739;
   font-family: Montserrat;
   -webkit-overflow-scrolling: touch;
   /* Flick scrolling for iPhones */
   scroll-behavior: smooth;
+  
 }
 
 #countdown {
@@ -22,7 +23,7 @@ html {
 
 a {
   cursor: pointer;
-  color: var(--primary);
+  color: #c44739;
 
 }
 
@@ -34,7 +35,7 @@ Button sizes and colors
   font-size: 11pt;
   font-weight: bolder;
   text-transform: uppercase;
-  background-color: rgba(196, 97, 84, 254);
+  background-color: #c44739;
   letter-spacing: 2.5px;
   border: none;
   border-radius: 45px;
@@ -86,7 +87,7 @@ Button sizes and colors
   bottom: 0;
   width: 11%;
   height: 300%; /* Set height to 100% of the viewport height */
-  background-color: #E6E6FA;
+  background-color: #0e0101;
   z-index: 98;
 }
 
@@ -97,7 +98,7 @@ Button sizes and colors
   bottom: 0;
   width: 11%;
   height: 300%; /* Set height to 100% of the viewport height */
-  background-color: #E6E6FA;
+  background-color: #0f0101;
   z-index: 98;
 }
 
@@ -233,8 +234,10 @@ canvas {
 
 
 section {
-  background-color: rgb(253, 253, 253);
+  /* background-color: rgb(253, 253, 253); */
   padding-bottom: 80px;
+  background-color: #a7abb8;
+  
 }
 
 section:first-of-type {
@@ -244,9 +247,10 @@ section:first-of-type {
 .section-title {
   padding: 10px;
   margin-bottom: 20px;
-  color: var(--primary);
-  background-color: rgb(253, 253, 253);
+  color: #c44739;
+  /* background-color: rgb(253, 253, 253); */
   width: 100%;
+  background-color: #a7abb8;
 }
 
 .image-section {
@@ -313,7 +317,7 @@ section:first-of-type {
 .question span {
   display: block;
   padding: 0px 10px;
-  color: #322828;
+  color: var(--tertiary);
 }
 
 .sponsor {
@@ -334,6 +338,7 @@ section:first-of-type {
   /* justify-content: center; */
   /* align-items: center; */
   /* height: 400px; */
+  
 }
 
 .sponsor-row-lg {
@@ -360,7 +365,7 @@ section:first-of-type {
   padding: 50px 0px;
   width: 100%;
   color: rgb(10, 5, 5);
-  background-color: var(--primary);
+  background-color: #313338;
   position: relative;
   z-index: 100;
 }
@@ -529,7 +534,7 @@ section:first-of-type {
 }
 
 .future-statement {
-  color: var(--tertiary);
+  color: #000000;
 }
 
 .prizes {
