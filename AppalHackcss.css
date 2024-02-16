@@ -320,6 +320,33 @@ section:first-of-type {
   color: var(--tertiary);
 }
 
+.prize {
+  padding: 10px 0px;
+  width: 95%;
+  -webkit-transition: max-height 0.5s, height 0.5s;
+  /* Safari */
+  transition: max-height 0.5s, height 0.5s;
+  text-align: center;
+}
+
+
+.prize span {
+  display: block;
+  padding: 0px 10px;
+  color: var(--tertiary);
+  text-align: center;
+}
+.prize img {
+  display: block;
+  margin: 0 auto; 
+  border-style: solid;
+}
+
+.Description{
+  font-size: smaller;
+  color: var(--tertiary);
+}
+
 .sponsor {
   -webkit-flex-grow: 1;
   flex-grow: 1;
