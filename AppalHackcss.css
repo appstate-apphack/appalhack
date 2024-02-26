@@ -8,7 +8,7 @@
 body,
 html {
   min-width: 320px;
-  color: #c44739;
+  color: var(--primary);
   font-family: Montserrat;
   -webkit-overflow-scrolling: touch;
   /* Flick scrolling for iPhones */
@@ -23,7 +23,7 @@ html {
 
 a {
   cursor: pointer;
-  color: #c44739;
+  color: var(--primary);
 
 }
 
@@ -35,7 +35,7 @@ Button sizes and colors
   font-size: 11pt;
   font-weight: bolder;
   text-transform: uppercase;
-  background-color: #c44739;
+  background-color: var(--primary);
   letter-spacing: 2.5px;
   border: none;
   border-radius: 45px;
@@ -87,7 +87,7 @@ Button sizes and colors
   bottom: 0;
   width: 11%;
   height: 300%; /* Set height to 100% of the viewport height */
-  background-color: #0e0101;
+  background-color: #202227;
   z-index: 98;
 }
 
@@ -98,7 +98,7 @@ Button sizes and colors
   bottom: 0;
   width: 11%;
   height: 300%; /* Set height to 100% of the viewport height */
-  background-color: #0f0101;
+  background-color: #202227;
   z-index: 98;
 }
 
@@ -236,7 +236,7 @@ canvas {
 section {
   /* background-color: rgb(253, 253, 253); */
   padding-bottom: 80px;
-  background-color: #a7abb8;
+  background-color: #e3e6ec;
   
 }
 
@@ -247,10 +247,10 @@ section:first-of-type {
 .section-title {
   padding: 10px;
   margin-bottom: 20px;
-  color: #c44739;
+  color: var(--primary);
   /* background-color: rgb(253, 253, 253); */
   width: 100%;
-  background-color: #a7abb8;
+  background-color: #e3e6ec;
 }
 
 .image-section {
