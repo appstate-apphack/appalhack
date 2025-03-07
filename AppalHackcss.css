@@ -25,14 +25,36 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
 }
 
-#countdown {
+.below-banner-text{
   padding: 1rem;
   font-size: 1.5rem;
   color: var(--matrix-text);
   border: 2px solid var(--matrix-text);
   background-color: var(--tertiary);
   box-shadow: 0 0 10px var(--matrix-text);
+  margin: 0 0 1rem 0; 
 }
+
+#countdown {
+  /* padding: 1rem; */
+  font-size: 1.5rem;
+  color: var(--matrix-text);
+  /* border: 2px solid var(--matrix-text); */
+  /* border-top: none; */
+  /* background-color: var(--tertiary); */
+  /* box-shadow: 0px 10px 10px var(--matrix-text); */
+  margin: 0;
+}
+
+.t_shirt_date{
+  /* font-size: .5em; */
+  color: var(--matrix-text);
+  border: 2px solid var(--matrix-text);
+  background-color: var(--tertiary);
+  box-shadow: 0 0 10px var(--matrix-text);
+  margin: 1rem 0 1rem 0;
+}
+
 
 /* Matrix-style buttons */
 .button-link {
@@ -40,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 11pt;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: transparent;
+  background-color: var(--tertiary);
   border: 2px solid var(--matrix-text);
   color: var(--matrix-text);
   letter-spacing: 2.5px;
