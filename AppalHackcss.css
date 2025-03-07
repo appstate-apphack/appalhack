@@ -103,6 +103,10 @@ section {
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
+#future img {
+  width: 100%;
+  height: auto;
+}
 
 /* Terminal-style FAQ */
 .question {
