@@ -346,6 +346,7 @@ hr {
 
 .person-card .linkedin-image {
   color: var(--matrix-text);
+  margin-top:3rem;
 }
 
 .future-statement {
@@ -356,6 +357,8 @@ hr {
 .card-content{
   justify-content: center;
   text-align: center;
+   margin: auto;
+   margin-top:3rem;
 }
 #future {
   margin: 1rem;   /* Reduced margin */
