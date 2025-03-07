@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid var(--matrix-text);
   background-color: var(--tertiary);
   box-shadow: 0 0 10px var(--matrix-text);
-  margin: 0 0 1rem 0; 
+  margin: 1rem 0 1rem 0; 
   justify-content: center;
 }
 
@@ -80,6 +80,19 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 600px;
   margin: auto;
   vertical-align: center;
+  margin-top:1rem;
+  margin-bottom:auto;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+.date{
+  /* font-size: .5em; */
+  max-width: 600px;
+  margin: auto;
+  vertical-align: center;
+  margin-top:1rem;
+  margin-bottom:auto;
   justify-content: center;
   text-align: center;
   white-space: nowrap;
