@@ -367,7 +367,7 @@ hr {
   justify-content: center;
   text-align: center;
    margin: auto;
-   margin-top:rem;
+   margin-top:3rem;
 }
 #future {
   margin: 1rem;   /* Reduced margin */
