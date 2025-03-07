@@ -352,6 +352,11 @@ hr {
   color: var(--matrix-text);
   opacity: 0.8;
 }
+
+.card-content{
+  justify-content: center;
+  text-align: center;
+}
 #future {
   margin: 1rem;   /* Reduced margin */
   padding: 1rem;  /* Reduced padding */
