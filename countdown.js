@@ -6,7 +6,7 @@ gtag("js", new Date());
 
 gtag("config", "UA-56623245-2");
 
-// Set the target date and time for the countdown (March 30, 2024, 12:00 PM EST)
+// Set the target date and time for the countdown (April 12, 2024, 12:00 PM EST)
 var countDownDate = new Date("2025-04-12T12:00:00-05:00").getTime();
 
 // Update the count down every 1 second
@@ -39,5 +39,5 @@ var x = setInterval(function () {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "Welcome to AppalHack Hackathon!";
-  }
+  } 
 }, 1000);
