@@ -77,6 +77,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--tertiary);
   box-shadow: 0 0 10px var(--matrix-text);
   margin: 1rem 0 1rem 0;
+  max-width: 600px;
+  margin: auto;
+  vertical-align: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
 }
 
 #header {
@@ -105,10 +111,14 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 2rem;
 }
 
-.t_shirt_date {
+/* .t_shirt_date {
   max-width: 600px;
-  margin: 1rem auto;
-}
+  margin: auto;
+  vertical-align: center;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+} */
 
 .below-banner {
   flex-wrap: wrap;
