@@ -43,154 +43,50 @@
   <div class="colored-bar"></div>
   <div class="colored-bar2"></div>
   <div class="vg-picker"></div>
-  <div id="header" class="d-flex flex-column">
-    <div class="row container-fluid">
-      <!-- <div class="col-6 col-md-3 col-centered text-center"> -->
-        <!-- <img id="banner-logo" src="images/matrix_bear_nobg.png" /> -->
+  <div id="header" class="d-flex flex-column justify-content-center">
+    <div class="banner-container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center">
+          <img id="banner-logo" src="images/logo.png" class="mb-4" />
+          <div class="below-banner-text">
+            <h5>See you at AppalHack 2025!</h5>
+            <h5>Scheduled for April 12th and 13th, 2025.</h5>
+            <div id="countdown" class="my-3"></div>
+          </div>
 
-      <!-- </div> -->
-    </div>
-    <div class="row container-fluid">
-      <div class="col-8 col-md-6 col-centered text-center">
-        <img id="banner-logo" src="images/matrix_bear_nobg.png" />
-        <div class="below-banner-text">
-          
-          <h5>See you at AppalHack 2025!</h5>
-          <br />
-          <h5>Scheduled for April 12th and 13th, 2025.</h5>
-          <div id="countdown"></div>
-        </div>
+          <div class="d-flex justify-content-center my-4">
+            <a id="typeFormButtonStyle" class="typeform-share button button-link" 
+              href="https://forms.gle/3DWj6Wp2G4HFA1vV9" target="_blank">
+              Apply to Attend
+            </a>
+          </div>
 
-        <a id="typeFormButtonStyle" class="typeform-share button button-link" href="https://forms.gle/3DWj6Wp2G4HFA1vV9"
-          data-mode="popup" style="
-              display: inline-block;
-              text-decoration: none;
-              cursor: pointer;
-              font-family: Montserrat, Arial, sans-serif;
-              font-size: 26px;
-              line-height: 65px;
-              text-align: center;
-              margin: 0;
-              height: 65px;
-              padding: 0px 43px;
-              border-radius: 32px;
-              max-width: 100%;
-              white-space: nowrap;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              font-weight: bold;
-              -webkit-font-smoothing: antialiased;
-              -moz-osx-font-smoothing: grayscale;
-            " target="_blank">Apply to Attend
-          <div class="icon-typeform"></div>
+          <div class="t_shirt_date my-3">
+            <p><strong>Final Application Deadline for t-shirts: tbd</strong></p>
+          </div>
 
-        </a>
-
-        <div class="t_shirt_date">
-          <p><strong> Final Application Deadline for t-shirts: tbd</strong><br>
-          </p>
-        </div>
-        <script>
-          (function () {
-            var qs,
-              js,
-              q,
-              s,
-              d = document,
-              gi = d.getElementById,
-              ce = d.createElement,
-              gt = d.getElementsByTagName,
-              id = "typef_orm_share",
-              b = "https://embed.typeform.com/";
-            if (!gi.call(d, id)) {
-              js = ce.call(d, "script");
-              js.id = id;
-              js.src = b + "embed.js";
-              q = gt.call(d, "script")[0];
-              q.parentNode.insertBefore(js, q);
-            }
-          })();
-        </script>
-
-        <div class="row below-banner">
-          <a class="col mx-1 my-1 px-0" href="https://discord.gg/esYwvKQutf">
-            <button class="col-12 button-link" type="button">Discord
-              <div class="icon-discord"></div>
-            </button>
-          </a>
-
-          <a class="col mx-1 my-1 px-0" href="images/Appalhack Hackathon 2025.pdf" target="_blank">
-            <button class="col-12 button-link" type="button">
-              Sponsor Packet
-              <div class="icon-honey"></div>
-            </button>
-          </a>
-          <!--Place holder for schedule-->
-          <!-- <a class="col mx-1 my-1 px-0" href="images/AppalHack Schedule.jpg" target="_blank"> -->
-            <button class="col-12 button-link" type="button">
-              Schedule (tbd)
-              <div class="icon-Bee"></div>
-            </button>
-          </a>
+          <div class="row justify-content-center below-banner">
+            <div class="col-auto mx-2 my-2">
+              <a href="https://discord.gg/esYwvKQutf" class="button-link">
+                Discord
+              </a>
+            </div>
+            <div class="col-auto mx-2 my-2">
+              <a href="images/Appalhack Hackathon 2025.pdf" target="_blank" class="button-link">
+                Sponsor Packet
+              </a>
+            </div>
+            <div class="col-auto mx-2 my-2">
+              <button class="button-link">
+                Schedule (tbd)
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="sticky-top float-left pt-2 pl-2 ml-2 mt-2 d-none" id="sideNav">
-    <h5><a href="#details">Details</a></h5>
-    <h5><a href="#rules">Rules</a></h5>
-    <h5><a href="#organizers">Organizers</a></h5>
-    <h5><a href="#sponsors">Sponsors</a></h5>
-    <h5><a href="#prizes">Prizes</a></h5>
-    <h5><a href="#future">Almuni's Future</a></h5>
-    <h5><a href="#faq">FAQ</a></h5>
-
-
-  </div>
-  <!--Details-->
-  <section id="details">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-12 section-title text-left">
-          <h2>Details</h2>
-          <hr />
-        </div>
-        <div class="col-lg-4 image-section divider">
-          <div class="image-holder">
-            <i class=""></i>
-          </div>
-          <div class= "ecper text-left">
-          <h4><b>Experience</b></h4>
-          <span>AppalHack is a free Hackathon for students to attend. This includes fun activites through out the night
-            and free goodies! This year we are having an entire seperate day for sponsors and workshops so students can
-            give their full attention to the hackathon and then the workshops! This is an amazing event to work in a
-            team and create an amazing project!</span>
-          </div>
-        </div>
-        <div class="col-lg-4 pt-5 pt-lg-0 image-section divider">
-          <div class="image-holder">
-            <i class=""></i>
-          </div>
-          <div class= "hack text-left">
-          <h4><b>Hackathon</b></h4>
-          <span>This is going to a be 24 hour hackathon competition which provides students the opportunity to work in
-            teams or by themselves, and challenge themselves with new technology. Any student can attend and try to make
-            a project. </span>
-          </div>
-        </div>
-        <div class="col-lg-4 pt-5 pt-lg-0 image-section divider2">
-          <div class="image-holder">
-            <i class=""></i>
-          </div>
-          <div class= "priz text-left">
-          <h4><b>Prizes</b></h4>
-          <span>Our judges will award prizes at the end of the event for certain categories. We encougage newcomers to
-            use this opprounity to see some amazing projects and learn from them! </span>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
 

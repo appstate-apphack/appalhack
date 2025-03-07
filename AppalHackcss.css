@@ -18,6 +18,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
 /* Matrix-style terminal text */
 h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 0 5px var(--matrix-text);
@@ -47,6 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--tertiary);
   box-shadow: 0 0 10px var(--matrix-text);
   margin: 0 0 1rem 0; 
+  justify-content: center;
 }
 
 #countdown {
@@ -68,6 +78,53 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 10px var(--matrix-text);
   margin: 1rem 0 1rem 0;
 }
+
+#header {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-container {
+  width: 100%;
+  padding: 20px;
+}
+
+#banner-logo {
+  /* max-width: 500px; */
+  width: 500%; 
+  height: auto;
+  filter: brightness(0) invert(1) sepia(1) saturate(1000%) hue-rotate(40deg);
+  margin: 0 auto 2rem;
+  display: block;
+}
+
+.below-banner-text {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.t_shirt_date {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.below-banner {
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.button-link {
+  min-width: 200px;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
 
 
 /* Matrix-style buttons */
