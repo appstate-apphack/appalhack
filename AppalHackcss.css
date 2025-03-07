@@ -244,8 +244,17 @@ section {
   filter: grayscale(100%) brightness(150%);
   transition: all 0.3s ease;
 }
+.sponsor-imgs2 img {
+  filter: invert(1) grayscale(100%) brightness(150%);
+  transition: all 0.3s ease;
+}
 
 .sponsor-imgs:hover img {
+  filter: none;
+  transform: scale(1.05);
+}
+
+.sponsor-imgs2:hover img {
   filter: none;
   transform: scale(1.05);
 }
@@ -358,7 +367,7 @@ hr {
   justify-content: center;
   text-align: center;
    margin: auto;
-   margin-top:3rem;
+   margin-top:rem;
 }
 #future {
   margin: 1rem;   /* Reduced margin */
