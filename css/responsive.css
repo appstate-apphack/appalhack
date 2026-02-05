@@ -1,0 +1,29 @@
+/* tablet styles */
+@media screen and (max-width: 768px) {
+  .schedule-row {
+    gap: 0.2rem;
+  }
+
+  .apply-wrapper {
+    gap: 1rem;
+  }
+
+  .apply-left {
+    order: 1;
+  }
+
+  .apply-left h2 {
+    margin: 0;
+  }
+
+  .apply-right {
+    order: 0;
+  }
+}
+
+/* mobile styles (override tablet styles) */
+@media screen and (max-width: 430px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}

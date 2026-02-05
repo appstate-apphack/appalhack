@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/default.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
+  <title>Appalhack Hackathon</title>
+</head>
+
+<body>
+  <div id="pageTop"></div>
+  <header class="hero" id="hero">
+    <div class="clouds"></div>
+    <div class="mountains"></div>
+    <div class="container hero-wrapper">
+      <div class="appalhack">
+        <h1 class="hero-title">APPALHACK</h1>
+        <h2 class="event-date">March 21</h2>
+      </div>
+      <div class="about">
+        <div id="countdown-timer">
+          <div class="timer-item">
+            <span data-timer="days">0</span>
+            <p>Days</p>
+          </div>
+          <div class="timer-item">
+            <span data-timer="hours">0</span>
+            <p>Hours</p>
+          </div>
+          <div class="timer-item">
+            <span data-timer="minutes">0</span>
+            <p>Minutes</p>
+          </div>
+          <div class="timer-item">
+            <span data-timer="seconds">0</span>
+            <p>Seconds</p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="mailto:AppHack@appstate.edu" class="social-link mail-icon">
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M21 8L17.4392 9.97822C15.454 11.0811 14.4614 11.6326 13.4102 11.8488C12.4798 12.0401 11.5202 12.0401 10.5898 11.8488C9.53864 11.6326 8.54603 11.0811 6.5608 9.97822L3 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                  stroke="#adc178" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                </path>
+              </g>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/AppalHack/" class="social-link instagram-icon">
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                  fill="#adc178"></path>
+                <path
+                  d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                  fill="#adc178"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                  fill="#adc178"></path>
+              </g>
+            </svg>
+          </a>
+          <a href="https://discord.gg/XRfgYEzN" class="social-link discord-icon">
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
+                  fill="#adc178"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="#schedule">Schedule</a>
+        <a href="#rules">Rules</a>
+        <a href="#team">Team</a>
+        <a href="#judges">Judges</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#prizes">Prizes</a>
+        <a href="#apply">Apply</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="schedule" id="schedule">
+    <div class="container schedule-wrapper">
+      <h2>Schedule</h2>
+      <div class="schedule-list">
+        <div class="schedule-row">
+          <div class="time">12:00 AM</div>
+          <div class="event">
+            <h3>TBA</h3>
+            <p>TBA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rules" id="rules">
+    <div class="container rules-wrapper">
+      <h2>Rules</h2>
+      <ul class="rules-list">
+        <li>No weapons, drugs or alcohol.</li>
+        <li>Be kind and respectful to others! Respect everyone's boundaries, pronouns, etc.</li>
+        <li>No harassment or bullying, NO SPAM</li>
+        <li>No hate speech. Racism, homophobia, transphobia, -isms, etc. are NOT tolerated by any
+          means and will result in an immediate ban. Microaggressions and race jokes are NOT
+          tolerated.</li>
+        <li>All coding and most asset work must be done during the event (March 21-22).</li>
+        <li>UMLs, concept art, and to-do lists are allowed beforehand.</li>
+        <li>The use of any AI is not permitted.</li>
+        <li>At least one team member must be present for the demo fair. Prizes will only be awarded
+          to teams that are present.</li>
+        <li>All teams retain full ownership of what they create during AppalHack.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="team" id="team">
+    <div class="container team-wrapper">
+      <h2>Team</h2>
+      <div class="person-groups">
+        <div class="person-group">
+          <div class="person-card">Mary Margaret Stephenson
+            <span>Outreach Director</span>
+          </div>
+          <div class="person-card">Adeline Mae Thomas
+            <span>Outreach Organizer</span>
+          </div>
+        </div>
+        <div class="person-group">
+          <div class="person-card">Savannah Heafner
+            <span>Budget Director</span>
+          </div>
+          <div class="person-card">Liam Curiel
+            <span>Budget Organizer</span>
+          </div>
+        </div>
+        <div class="person-group">
+          <div class="person-card">Milton Barba
+            <span>Website Director</span>
+          </div>
+          <div class="person-card">Eric Hendershot
+            <span>Website Organizer</span>
+          </div>
+        </div>
+        <div class="person-group">
+          <div class="person-card">Eva Anderson
+            <span>Social Media Director</span>
+          </div>
+          <div class="person-card">Emiliano Pecina-Tristan
+            <span>Social Media Organizer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="judges" id="judges">
+    <div class="container judges-wrapper">
+      <h2>Judges</h2>
+      <div class="person-groups">
+        <div class="person-group">
+          <div class="person-card">TBA<br><span>TBA</span></div>
+        </div>
+      </div>
+  </section>
+
+  <section class="sponsors" id="sponsors">
+    <div class="container sponsor-wrapper">
+      <h2>Sponsors</h2>
+      <div class="image-cards">
+        <a href="" class="image-card">
+          <div class="image-container">
+            <img
+              src="https://uc.appstate.edu/sites/default/files/logos/app-state-block-a-logo-600px.png"
+              alt="logo">
+          </div>
+          <div class="image-title">Your sponsor here!</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="prizes" id="prizes">
+    <div class="container prizes-wrapper">
+      <h2>Prizes</h2>
+      <div class="image-cards">
+        <div class="image-card">
+          <div class="image-container">
+            <img
+              src="./assets/prizes-temp.png"
+              alt="prize">
+          </div>
+          <div class="image-title">Coming Soon!</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="apply" id="apply">
+    <div class="container apply-wrapper">
+      <div class="apply-left">
+        <h2>T-SHIRT?</h2>
+        <div class="tshirt-container">
+          <img class="tshirt" src="./assets/tshirt.png" alt="t-shirt">
+        </div>
+      </div>
+      <div class="apply-right">
+        <form id="userForm" method="POST">
+          <h2>APPLY HERE!</h2>
+          <div class="form-data">
+            <div style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+              <label for="company">Company</label>
+              <input
+                type="text"
+                id="company"
+                name="company"
+                tabindex="-1"
+                autocomplete="off" />
+            </div>
+            <div class="form-name">
+              <label for="fullName">Full name</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="John Doe"
+                autocomplete="off">
+            </div>
+            <div class="form-email">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="example@email.com"
+                autocomplete="off">
+            </div>
+            <div class="form-discord">
+              <label for="discord">Discord username</label>
+              <input type="text" id="discord" name="discord" placeholder="TheLegend27"
+                autocomplete="off">
+            </div>
+            <div class="form-allergy">
+              <label for="allergies">Any allergies or dietary restrictions?</label>
+              <div class="radio-field">
+                <input type="radio" id="noAllergies" name="allergies" value="none" required>
+                <label for="noAllergies">No Allergies</label>
+              </div>
+              <div class="radio-field">
+                <input type="radio" id="otherAllergiesRadio" name="allergies" value="other">
+                <label for="otherAllergiesRadio">Other</label>
+              </div>
+              <input type="text" id="otherAllergiesText" name="otherAllergies"
+                placeholder="allergies" autocomplete="off">
+            </div>
+            <div class="form-year">
+              <label for="year">What year are you?</label>
+              <div class="radio-field">
+                <input type="radio" id="freshman" name="year" value="freshman">
+                <label for="freshman">Freshman</label>
+              </div>
+              <div class="radio-field">
+                <input type="radio" id="sophomore" name="year" value="sophomore">
+                <label for="sophomore">Sophomore</label>
+              </div>
+              <div class="radio-field">
+                <input type="radio" id="junior" name="year" value="junior">
+                <label for="junior">Junior</label>
+              </div>
+              <div class="radio-field">
+                <input type="radio" id="senior" name="year" value="senior">
+                <label for="senior">Senior</label>
+              </div>
+              <div class="radio-field">
+                <input type="radio" id="graduate" name="year" value="graduate">
+                <label for="graduate">Graduate</label>
+              </div>
+            </div>
+          </div>
+          <div class="action-buttons">
+            <button type="submit">Submit</button>
+          </div>
+          <div id="formFeedback" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="container faq-wrapper">
+      <h2>FAQ</h2>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>What is AppalHack?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>AppalHack is a 24-hour student-run hackathon hosted at Appalachian State University. At
+            AppalHack, teams of students get involved in the software development process including
+            design, development, and marketing disciplines. In addition to being a highly productive
+            environment, AppalHack is loads of fun!</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>How does the competition work?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>Teams of up to 4 will work on a project to be presented to the judges. This project is
+            up to their imagination. The judges will then select the best overall. Every project
+            must be started and finished at the hackathon.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>When and where is AppalHack?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>This year Appalhack will be hosted at Anne Belk at Appalachian State University! The
+            event will be held in the entire building.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>Do I need prior experience?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>No experience needed!</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>Who can participate?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>AppalHack is open to all university students no matter the major.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>How to get involved?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>If you'd like to sponsor us reach out to us at <a href="mailto:AppHack@appstate.edu"
+              class="email">
+              AppHack@appstate.edu
+            </a>. If you would like
+            to participate, please fill out the <a href="#apply">form</a> above.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>How much does the event cost?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>Free to attend!</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>What do I get?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>Participants will receive t-shirts and "swag" at the event. Students also have the
+            chance of winning one of many prizes!</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>Does AppalHack offer travel reimbursement?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>No, hackers will need to provide their own forms of transportation to and from the
+            event.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>Can I use old code?</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>No, all code must be made during the event. You may create UMLs, todo lists, and needed
+            assets all before the event.</p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-toggle">
+          <h3>I have more questions!</h3>
+          <span class="toggle-icon">+</span>
+        </summary>
+        <div class="faq-content">
+          <p>Feel free to contact us at <a href="mailto:AppHack@appstate.edu" class="email">
+              AppHack@appstate.edu
+            </a>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-wrapper">
+      <div class="footer-left">
+        <div class="social-links">
+          <a href="mailto:AppHack@appstate.edu" class="social-link">
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M21 8L17.4392 9.97822C15.454 11.0811 14.4614 11.6326 13.4102 11.8488C12.4798 12.0401 11.5202 12.0401 10.5898 11.8488C9.53864 11.6326 8.54603 11.0811 6.5608 9.97822L3 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z"
+                  stroke="#adc178" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                </path>
+              </g>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/AppalHack/" class="social-link">
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                  fill="#adc178"></path>
+                <path
+                  d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                  fill="#adc178"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                  fill="#adc178"></path>
+              </g>
+            </svg>
+          </a>
+          <a href="https://discord.gg/XRfgYEzN" class="social-link">
+            <svg width="64px" height="64px" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
+                  fill="#adc178"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <span>© 2026 Appalhack. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
