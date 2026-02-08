@@ -113,6 +113,7 @@ userForm.addEventListener('submit', function (e) {
   const fullNameInput = document.getElementById('fullName').value.trim();
   const emailInput = document.getElementById('email').value.trim();
   const discordInput = document.getElementById('discord').value.trim();
+  const shirtSizeInput = document.getElementById('shirtSize').value;
   const honeypotInput = document.getElementById('company')?.value.trim();
 
   const yearSelected = document.querySelector('input[name="year"]:checked');
@@ -129,6 +130,7 @@ userForm.addEventListener('submit', function (e) {
     fullName: fullNameInput,
     email: emailInput,
     discord: discordInput,
+    shirtSize: shirtSizeInput,
     allergies: allergiesInput,
     otherAllergies: otherAllergiesInput,
     year: yearInput,

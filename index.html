@@ -244,12 +244,12 @@
                 autocomplete="off" />
             </div>
             <div class="form-name">
-              <label for="fullName">Full name</label>
+              <label for="fullName">Full name *</label>
               <input type="text" id="fullName" name="fullName" required placeholder="John Doe"
                 autocomplete="off">
             </div>
             <div class="form-email">
-              <label for="email">Email</label>
+              <label for="email">Email *</label>
               <input type="email" id="email" name="email" required placeholder="example@email.com"
                 autocomplete="off">
             </div>
@@ -258,8 +258,21 @@
               <input type="text" id="discord" name="discord" placeholder="TheLegend27"
                 autocomplete="off">
             </div>
+            <div class="form-size">
+              <label for="shirtSize">Shirt size *</label>
+              <select id="shirtSize" name="shirtSize" required>
+                <option value="">Select your size</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="2XL">2XL</option>
+                <option value="3XL">3XL</option>
+              </select>
+            </div>
             <div class="form-allergy">
-              <label for="allergies">Any allergies or dietary restrictions?</label>
+              <label for="allergies">Any allergies or dietary restrictions? *</label>
               <div class="radio-field">
                 <input type="radio" id="noAllergies" name="allergies" value="none" required>
                 <label for="noAllergies">No Allergies</label>

@@ -538,12 +538,12 @@
   border: 3px solid var(--faded-copper);
 }
 
-.form-name, .form-email, .form-discord {
+.form-name, .form-email, .form-discord, .form-size {
   display: flex;
   flex-direction: column;
 }
 
-.form-name label, .form-email label, .form-discord label {
+.form-name label, .form-email label, .form-discord label, .form-size label {
   font-size: var(--size-20);
 }
 
@@ -558,13 +558,35 @@
   cursor: pointer;
 }
 
-
 .form-allergy > label:first-of-type, .form-year > label:first-of-type {
   font-size: var(--size-20);
 }
 
 #otherAllergiesText {
   display: none;
+}
+
+.form-size select {
+  padding: 10px;
+  padding-right: 2.5rem;
+  border: 3px solid var(--faded-copper);
+  border-radius: 1rem;
+  cursor: pointer;
+  background-color: white;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236c584c' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 12px;
+}
+
+.form-size select:invalid {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form-size select:focus {
+  border: 3px solid var(--muted-olive);
+  outline: none;
 }
 
 .action-buttons {
