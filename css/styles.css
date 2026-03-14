@@ -431,6 +431,10 @@
   transform: scale(1.05);
 }
 
+.prizes-wrapper .image-card {
+  cursor: default;
+}
+
 .prizes-wrapper .image-card:hover .image-container img {
   transform: none;
 }
