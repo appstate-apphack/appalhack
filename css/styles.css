@@ -609,6 +609,16 @@
   font-weight: 900;
 }
 
+.action-buttons button[type="submit"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.action-buttons button[type="submit"]:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
+
 .action-buttons button[type="submit"]:hover {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   transform: translateY(-2px);
