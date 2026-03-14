@@ -102,7 +102,7 @@ toggleOtherInput();
 // form submission handling
 const userForm = document.getElementById('userForm');
 const feedback = document.getElementById('formFeedback');
-const PIPEDREAM_URL = 'https://eo2g64t706e0zve.m.pipedream.net';
+const PIPEDREAM_URL = '';
 userForm.addEventListener('submit', function (e) {
   e.preventDefault();
 
