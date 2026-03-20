@@ -7,7 +7,7 @@ let previousValues = {
 };
 
 function updateCountdown() {
-  const targetDate = new Date('March 21, 2026 00:00:00').getTime();
+  const targetDate = new Date('March 21, 2026 12:00:00').getTime();
   const now = new Date().getTime();
   const distance = targetDate - now;
 
