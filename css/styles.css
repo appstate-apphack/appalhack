@@ -501,10 +501,6 @@
   text-align: center;
 }
 
-.apply-right > form > div:first-child h2 {
-  margin-bottom: 0;
-}
-
 .apply-right form {
   display: flex;
   flex-direction: column;
