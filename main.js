@@ -1,4 +1,4 @@
-// Countdown Timer to March 12, 2026
+// Countdown Timer to March 21, 2026
 let previousValues = {
   days: null,
   hours: null,
@@ -6,16 +6,18 @@ let previousValues = {
   seconds: null,
 };
 
+const intervalId = setInterval(updateCountdown, 1000);
+
 function updateCountdown() {
   const targetDate = new Date('March 21, 2026 12:00:00').getTime();
   const now = new Date().getTime();
   const distance = targetDate - now;
 
   if (distance <= 0) {
-    document.querySelector('[data-timer="days"]').textContent = '0';
-    document.querySelector('[data-timer="hours"]').textContent = '0';
-    document.querySelector('[data-timer="minutes"]').textContent = '0';
-    document.querySelector('[data-timer="seconds"]').textContent = '0';
+    ['days', 'hours', 'minutes', 'seconds'].forEach((t) => {
+      document.querySelector(`[data-timer="${t}"]`).textContent = '0';
+    });
+    clearInterval(intervalId);
     return;
   }
 
@@ -47,7 +49,6 @@ function updateWithAnimation(timer, newValue) {
     previousValues[timer] = newValue;
   }
 }
-setInterval(updateCountdown, 1000);
 updateCountdown();
 
 // sticky and mountains
