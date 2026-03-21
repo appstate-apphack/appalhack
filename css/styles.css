@@ -368,7 +368,7 @@
 .person-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   flex: 1;
   padding: 1rem;
   border-radius: 1rem;
